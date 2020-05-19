@@ -1,0 +1,41 @@
+html {
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif; 
+    
+      background: url(../images/paulxhern.jpg) no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      
+    }
+body {
+
+  width: 99%;
+  font-size: 32px;
+  
+}
+.page > div {
+
+  border-radius: 5px;
+  padding: 10px;
+  border: 2px solid rgb(79,185,227);
+
+}
+
+.page {
+
+  height: 900px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  font-weight: bold;
+      
+}
+
+#shop {
+
+  text-decoration-line: none;
+  text-decoration-color: white;
+  text;
+}
