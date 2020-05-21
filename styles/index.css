@@ -15,27 +15,103 @@ body {
   font-size: 32px;
   
 }
-.page > div {
+.dropf-container, .dropi-container, .dropy-container {
 
-  border-radius: 5px;
-  padding: 10px;
-  border: 2px solid rgb(79,185,227);
+  position: inline;
+  display: inline;
+  
+}
+
+.dropf-button:hover, .dropi-button:hover, .dropy-button:hover {
+
+  background-color: aquamarine;
 
 }
 
-.page {
+.dropf-button, .dropi-button, .dropy-button {
 
-  height: 900px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 20px;
-  font-weight: bold;
-      
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: inline-block;
+
+}
+
+.dropf-menu, .dropi-menu, #dropy-menu {
+
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+}
+
+.dropf-menu a:hover, .dropi-menu a:hover, .dropy-menu a:hover {
+
+    background-color: darkgray;
+
+}
+
+.dropf-menu a, .dropi-menu a, .dropy-menu {
+
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  display: block;
+
+}
+
+
+.show {display: block;}
+
+#social-media-links {
+ 
+    position: absolute;
+    left: 46.7%;
+    top: 1%; 
+
+}
+
+
+#music {
+
+  position: absolute;
+  top: 1%;
+  left: 95%;
+
+}
+
+#sign-up {
+
+  position: absolute;
+  left: 48%;
+  top: 95%;
+
 }
 
 #shop {
 
-  text-decoration-line: none;
-  text-decoration-color: white;
-  text;
+  position: absolute;
+  top: 95%;
+
+}
+
+#video {
+
+  position: absolute;
+  top: 95%;
+  left: 95%;
+
+}
+
+
+#banjorecord {
+
+  position: absolute;
+  top: 20%;
+  left: 30%;
+
 }
