@@ -16,12 +16,10 @@ body {
   
 }
 
+.flinks {
 
-.dropf:hover {
+    display: none;
 
-  background-color: aquamarine;
-  display: contents
-  
 }
 
 #social-media-links {
