@@ -24,21 +24,43 @@ body {
 
 .drop {
 
+  position: absolute;
   font-size: 16px;
   display: inline-block;
+
+}
+
+#dropy {
+
+    left:40px;
+  
+}
+
+#dropi {
+
+  left: 20px;
 
 }
 
 .drop:hover > .links {
 
     display: block;
+    background-color: lightgray;
+    width: 60px;
     
+    
+}
+
+.drop > .links:hover {
+
+  background-color: darkgray;
+
 }
 
 #social-media-links {
  
     position: absolute;
-    left: 46.7%;
+    left: 48.5%;
     top: 1%; 
     transform: rotate(90px);
 }
