@@ -16,10 +16,23 @@ body {
   
 }
 
-.flinks {
+.links {
 
     display: none;
 
+}
+
+.drop {
+
+  font-size: 16px;
+  display: inline-block;
+
+}
+
+.drop:hover > .links {
+
+    display: block;
+    
 }
 
 #social-media-links {
