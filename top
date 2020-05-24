@@ -1,0 +1,14 @@
+● apache2.service - The Apache HTTP Server
+   Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor preset: enabled)
+  Drop-In: /lib/systemd/system/apache2.service.d
+           └─apache2-systemd.conf
+   Active: inactive (dead) since Sat 2020-05-23 23:52:30 EDT; 11s ago
+  Process: 14621 ExecStop=/usr/sbin/apachectl stop (code=exited, status=0/SUCCESS)
+  Process: 14617 ExecStart=/usr/sbin/apachectl start (code=exited, status=0/SUCCESS)
+ Main PID: 963 (code=exited, status=0/SUCCESS)
+
+May 23 23:52:30 pauls-computer systemd[1]: Starting The Apache HTTP Server...
+May 23 23:52:30 pauls-computer apachectl[14617]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+May 23 23:52:30 pauls-computer apachectl[14617]: httpd (pid 14508) already running
+May 23 23:52:30 pauls-computer apachectl[14621]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+May 23 23:52:30 pauls-computer systemd[1]: Started The Apache HTTP Server.
