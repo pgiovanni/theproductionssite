@@ -9,3 +9,21 @@ html {
       background-size: cover;
       
     }
+
+
+#video-container {
+
+    
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+}
+
+.videos {
+
+  width: 1000px;
+  height: 562.5px;
+  padding: 10px;
+  background-color: blue;
+
+}
