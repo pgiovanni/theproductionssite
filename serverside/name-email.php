@@ -1,7 +1,7 @@
 <?php
-    $name = htmlspecialchars($_POST ['name']);
-    $email = htmlspecialchars($_POST ['email']);
+    $userName = htmlspecialchars($_POST ['userName']);
+    $userEmail = htmlspecialchars($_POST ['userEmail']);
 
-    echo $name, '', $email;
+    echo $userName, '', $userEmail;
 
 ?>
