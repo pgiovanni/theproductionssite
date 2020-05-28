@@ -4,11 +4,11 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
 def form():
-    return render_template('../serverside/signup.html')
+    return render_template('signup.html')
 
 @app.route('/hello', methods=['GET', 'POST'])
 def hello():
-    return render_template('greeting.html', userName=request.form['userName'], userEmail=request.form['to'])
+    return render_template('signup.html', userName=request.form['userName'], userEmail=request.form['to'])
 
 if __name__ == "__main__":
     app.run()
