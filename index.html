@@ -10,7 +10,7 @@
   <body>
     
     <img id="banjorecord" src="images/banjorecord.png">
-    <div class="mainlinks"><a id="tour" href="tour.html">Tour</a></div>
+    <div class="mainlinks"><a id="tour" href="server/templates/tour.html">Tour</a></div>
     <div id="social-media-links">      
       <div id="dropf" class="drop">
         <img id="facebook" src="images/facebook">
@@ -28,11 +28,12 @@
         <a class="links" href="https://www.youtube.com/channel/UCGtfQ6n5mCQrnNHtN-U8zbA">Paul G</a>
       </div>
     </div>
-    <div class="mainlinks"><a id="music" href="music.html">Music</a></div>
-    <div class="mainlinks"><a id="shop" href="shop.html">Shop</a></div>
+    <div class="mainlinks"><a id="music" href="server/templates/music.html">Music</a></div>
+    <div class="mainlinks"><a id="shop" href="server/templates/shop.html">Shop</a></div>
     <div class="mainlinks"><a id="sign-up"  href="server/templates/signup.html">Sign up</a></div>
-    <div class="mainlinks"><a id="video" href="video.html">Video</a></div>
+    <div class="mainlinks"><a id="video" href="server/templates/video.html">Video</a></div>
     
-     
+     {% block music}
+     {% endblock %}
   </body>
 </html> 
