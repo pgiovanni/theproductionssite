@@ -1,39 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html> 
+  {% block head %}
   <head>
-    <link href="/music-site/styles/index.css" rel="stylesheet">
+    <link href="{{ path_to_styles('index.css') }}" rel="stylesheet">
     <meta charset="utf-8">
     <title>The Production</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <script src="scripts/main.js"></script>
+    <script src="{{ path_to_scripts('main.js') }}"></script>
   </head>
+  {% endblock %}
   <body>
     
-    <img id="banjorecord" src="images/banjorecord.png">
+    <img id="banjorecord" src="{{ path_to_images('banjorecord.png') }}">
     <div class="mainlinks"><a id="tour" href="server/templates/tour.html">Tour</a></div>
     <div id="social-media-links">      
       <div id="dropf" class="drop">
-        <img id="facebook" src="images/facebook">
+        <img id="facebook" src="{{ path_to_images('facebook') }}">
         <a class="links" href="https://www.facebook.com/30luv_-110625097180857/">30luv_</a>
         <a class="links" href="https://www.facebook.com/pgiovanni1234/">Paul G</a></button>
       </div>
       <div id="dropi" class="drop">
-        <img id="instagram" src="images/instagram">
+        <img id="instagram" src="{{ path_to_images('instagram') }}">
         <a class="links" href="https://www.instagram.com/30luv_/">30luv_</a>
         <a class="links" href="https://www.instagram.com/paulgiovanniguitar">Paul G</a>
       </div>
       <div id="dropy" class="drop">
-        <img id="youtube" src="images/youtube">
+        <img id="youtube" src="{{ path_to_images('youtube') }}">
         <a class="links" href="https://www.youtube.com/channel/UCQHhVyq8BGRc1-IAEKFQGXw">30luv_</a>
         <a class="links" href="https://www.youtube.com/channel/UCGtfQ6n5mCQrnNHtN-U8zbA">Paul G</a>
       </div>
     </div>
-    <div class="mainlinks"><a id="music" href="server/templates/music.html">Music</a></div>
-    <div class="mainlinks"><a id="shop" href="server/templates/shop.html">Shop</a></div>
+    <div class="mainlinks"><a id="music" href="{{ path_to_templates('music.html') }} ">Music</a></div>
+    <div class="mainlinks"><a id="shop" href="server/shop.html">Shop</a></div>
     <div class="mainlinks"><a id="sign-up"  href="server/templates/signup.html">Sign up</a></div>
     <div class="mainlinks"><a id="video" href="server/templates/video.html">Video</a></div>
     
-     {% block music %}
+     {% block content %}
      {% endblock %}
   </body>
 </html> 
