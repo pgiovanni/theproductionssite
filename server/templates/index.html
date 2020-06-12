@@ -11,6 +11,12 @@
   {% endblock %}
   <body>
     
+    <div class="mainlinks" id="home">
+      <a href="{{ path_to_templates('index.html) }}" >
+        <img id="back_arrow" src="{{ path_to_images('back_arrow.png') }}">
+        Home
+      </a>
+    </div>
     <div class="banjorecord" id="banjorecord"></div> 
     <div class="mainlinks" id="tourContainer"><a id="tour" href="{{ path_to_templates('tour.html') }}">Tour</a></div>
     <div id="smlContainer">      
