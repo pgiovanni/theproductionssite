@@ -1,13 +1,14 @@
 {% extends "index.html" %}
      
-     {% block head %}
-     <head>
-        <meta charset="utf-8">
-        <link href="{{ path_to_styles('music.css') }}" rel="stylesheet"> 
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
-        <title>Music</title>
-    </head>
-    {% endblock %}
+{% block head %}
+<head>
+   <meta charset="utf-8">
+   <link href="{{ path_to_styles('index.css') }}" rel="stylesheet">
+   <link href="{{ path_to_styles('music.css') }}" rel="stylesheet"> 
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
+   <title>Music</title>
+</head>
+{% endblock %}
     {% block content %}    
             
             <div class="audio-player-hern">

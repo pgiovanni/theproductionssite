@@ -6,14 +6,14 @@
     <meta charset="utf-8">
     <title>The Production</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <script src="{{ path_to_scripts('main.js') }}"></script>
+    <script src="{{ path_to_scripts('index.js') }}"></script>
   </head>
   {% endblock %}
   <body>
     
-    <img id="banjorecord" src="{{ path_to_images('banjorecord.png') }}">
-    <div class="mainlinks"><a id="tour" href="server/templates/tour.html">Tour</a></div>
-    <div id="social-media-links">      
+    <div class="banjorecord" id="banjorecord"></div> 
+    <div class="mainlinks" id="tourContainer"><a id="tour" href="{{ path_to_templates('tour.html') }}">Tour</a></div>
+    <div id="smlContainer">      
       <div id="dropf" class="drop">
         <img id="facebook" src="{{ path_to_images('facebook') }}">
         <a class="links" href="https://www.facebook.com/30luv_-110625097180857/">30luv_</a>
@@ -30,10 +30,10 @@
         <a class="links" href="https://www.youtube.com/channel/UCGtfQ6n5mCQrnNHtN-U8zbA">Paul G</a>
       </div>
     </div>
-    <div class="mainlinks"><a id="music" href="{{ path_to_templates('music.html') }} ">Music</a></div>
-    <div class="mainlinks"><a id="shop" href="server/shop.html">Shop</a></div>
-    <div class="mainlinks"><a id="sign-up"  href="server/templates/signup.html">Sign up</a></div>
-    <div class="mainlinks"><a id="video" href="server/templates/video.html">Video</a></div>
+    <div class="mainlinks" id="musicContainer"><a id="music" href="{{ path_to_templates('music.html') }} ">Music</a></div>
+    <div class="mainlinks" id="shopContainer"><a id="shop" href="{{ path_to_templates('shop.html') }}">Shop</a></div>
+    <div class="mainlinks" id="signupContainer"><a id="sign-up"  href="{{ path_to_templates('signup.html') }}">Sign up</a></div>
+    <div class="mainlinks" id="videoContainer"><a id="video" href="{{ path_to_templates('video.html') }}">Video</a></div>
     
      {% block content %}
      {% endblock %}

@@ -16,13 +16,20 @@ body {
   
 }
 
+
+.banjorecord {
+  image: url('/music-site/images/banjorecord.png') 
+}
+
 .links {
 
     display: none;
+    position: sticky;
 
 }
 
 .drop {
+
 
   position: absolute;
   font-size: 16px;
@@ -58,7 +65,7 @@ body {
 }
 
 #social-media-links {
- 
+
     position: absolute;
     left: 48.5%;
     top: 1%; 
