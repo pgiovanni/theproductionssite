@@ -20,7 +20,7 @@
       <div id="dropf" class="drop">
         <img id="facebook" src="{{ path_to_images('facebook') }}">
         <a class="links" href="https://www.facebook.com/30luv_-110625097180857/">30luv_</a>
-        <a class="links" href="https://www.facebook.com/pgiovanni1234/">Paul G</a></button>
+        <a class="links" href="https://www.facebook.com/pgiovanni1234/">Paul G</a>
       </div>
       <div id="dropi" class="drop">
         <img id="instagram" src="{{ path_to_images('instagram') }}">
@@ -38,6 +38,19 @@
     <div class="mainlinks" id="signupContainer"><a id="sign-up"  href="{{ path_to_templates('signup.html') }}">Sign up</a></div>
     <div class="mainlinks" id="videoContainer"><a id="video" href="{{ path_to_templates('video.html') }}">Video</a></div>    
     <span class="mainlinks" id="homeContainer"><a id="home" href="{{ path_to_templates('index.html') }}">Home</a></span>
+    <form onsubmit="alert('Submission Successful')" action="" method="POST" class="form-example">
+      <div class="form-example">
+        <label for="userName">Enter your name: </label>
+        <input type="text" name="userName" id="userName" required>
+      </div>
+      <div class="form-example">
+        <label for="userEmail">Enter your email: </label>
+        <input type="email" name="userEmail" id="userEmail" required>
+      </div>
+      <div class="form-example">
+        <button>Submit!</button>
+      </div>
+    </form>
      {% block content %}
      {% endblock %}
   </body>

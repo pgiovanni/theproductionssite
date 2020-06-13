@@ -15,7 +15,7 @@ html {
 .links {
 
     display: none;
-    position: absolute;
+   
 
 }
 
@@ -61,7 +61,7 @@ html {
     position: fixed;
     left: 48.5%;
     top: 1%; 
-    transform: rotate(90px);
+   
 }
 
 #tour {
