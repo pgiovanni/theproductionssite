@@ -1,5 +1,5 @@
 html {
-    font-size: 10px;
+    font-size: 35px;
     font-family: 'Roboto', sans-serif; 
     
       background: url(../images/paulxhern.jpg) no-repeat center center fixed; 
@@ -34,8 +34,8 @@ html {
 #sign-up{
 
   position: absolute;
-  left: 1%;
-  top: 50%;
+  left: .1%;
+  top: 33%;
   position: fixed;
 
 }
@@ -51,8 +51,12 @@ html {
 
 #home {
 
+
   display: block;
   position: absolute;
+  position: fixed;
+  top: 66%;
+
 
 }
 

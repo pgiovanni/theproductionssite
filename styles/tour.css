@@ -1,5 +1,5 @@
 html {
-    font-size: 10px;
+    font-size: 35px;
     font-family: 'Roboto', sans-serif; 
     
       background: url(../images/paulxhern.jpg) no-repeat center center fixed; 
@@ -18,3 +18,11 @@ iframe {
   top: 10%;
 }
 
+
+#home {
+
+  display: block;
+  position: absolute;
+  top: 50%;
+
+}

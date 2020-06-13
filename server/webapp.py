@@ -31,3 +31,10 @@ def path_to_images(filename):
 @app.template_global()
 def path_to_templates(filename):
     return '/webapp/child_templates/' + filename
+
+@app.template_global()
+def path_to_music(filename):
+    return '/music-site/music/' + filename
+
+
+

@@ -1,21 +1,16 @@
 html {
-    font-size: 10px;
+
+    font-size: 35px;
     font-family: 'Roboto', sans-serif; 
-    
-      background: url(../images/paulxhern.jpg) no-repeat center center fixed; 
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-      
-    }
+    background: url(../images/paulxhern.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
 
-body {
+ }
 
-  width: 99%;
-  font-size: 32px;
-  
-}
 
 .links {
 
@@ -139,7 +134,6 @@ body {
 
 #home {
 
-  position: absolute;
-  display: inline-block;
+  display: none;
 
 }

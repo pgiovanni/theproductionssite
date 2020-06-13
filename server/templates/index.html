@@ -2,21 +2,18 @@
 <html> 
   {% block head %}
   <head>
-    <link href="{{ path_to_styles('index.css') }}" rel="stylesheet">
     <meta charset="utf-8">
+    <link href="{{ path_to_styles('index.css') }}" rel="stylesheet">
     <title>The Production</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <script src="{{ path_to_scripts('index.js') }}"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
   </head>
   {% endblock %}
   <body>
     
-    <div class="mainlinks" id="home">
-      <a href="{{ path_to_templates('index.html) }}" >
-        <img id="back_arrow" src="{{ path_to_images('back_arrow.png') }}">
-        Home
-      </a>
-    </div>
+    
     <div class="banjorecord" id="banjorecord"></div> 
     <div class="mainlinks" id="tourContainer"><a id="tour" href="{{ path_to_templates('tour.html') }}">Tour</a></div>
     <div id="smlContainer">      
@@ -39,8 +36,8 @@
     <div class="mainlinks" id="musicContainer"><a id="music" href="{{ path_to_templates('music.html') }} ">Music</a></div>
     <div class="mainlinks" id="shopContainer"><a id="shop" href="{{ path_to_templates('shop.html') }}">Shop</a></div>
     <div class="mainlinks" id="signupContainer"><a id="sign-up"  href="{{ path_to_templates('signup.html') }}">Sign up</a></div>
-    <div class="mainlinks" id="videoContainer"><a id="video" href="{{ path_to_templates('video.html') }}">Video</a></div>
-    
+    <div class="mainlinks" id="videoContainer"><a id="video" href="{{ path_to_templates('video.html') }}">Video</a></div>    
+    <span class="mainlinks" id="homeContainer"><a id="home" href="{{ path_to_templates('index.html') }}">Home</a></span>
      {% block content %}
      {% endblock %}
   </body>
