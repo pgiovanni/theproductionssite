@@ -81,12 +81,25 @@ html {
 
 }
 
-#sign-up {
+#signupContainer {
 
   position: absolute;
   position: fixed;
   left: 46.5%;
   top: 95%;
+  background: none;
+  
+
+}
+
+#email_form {
+
+  position: absolute;
+  display: none;
+  top: 100%;
+  width: 99%;
+  background-color: black;
+  transition: transform 5s;
 
 }
 

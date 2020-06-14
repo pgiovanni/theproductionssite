@@ -1,17 +1,10 @@
+let signup_button=document.getElementById('signupContainer').onclick = function signup_scroll() {
 
+  let form_container=document.getElementById('email_form');
+ 
+  form_container.style.display="block";
+  form_container.style.transform="translateY(-100px)";
 
-function css_fixed (x) {
-   
-   
-    const tour=document.getElementById(tourContainer);
-    /*const sml=document.getElementById(smlContainer); 
-    const music=document.getElementById(musicContainer);
-    const shop=document.getElementById(shopContainer);
-    const signup=document.getElementById(signupContainer);
-    const video=document.getElementById(videoContainer);*/
-
-    
-    
-    tour.scroll(1900, 200)
-    
+  
+  
 }
