@@ -3,15 +3,17 @@
 {% block head %}
     <head>
         <meta charset="utf8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="{{ path_to_styles('index.css') }}" rel="stylesheet">
         <link href="{{ path_to_styles('video.css') }}" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
         <title>Video</title>
-        <script src="{{ path_to_scripts('index.js') }}"></script>
+        
     </head>
 {% endblock %}
 
 {% block content %}
+    
     <div id="video-container">
         <iframe class="videos" id="guitar-beat"src="https://www.youtube.com/embed/zxVqoBXvjo4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <iframe class="videos" id="harmoni" src="https://www.youtube.com/embed/n6aq2TpAOHY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -19,4 +21,5 @@
         <iframe class="videos" id="microphone-background" src="https://www.youtube.com/embed/4deHLKBYKAs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <iframe class="videos" id="sidways-hern" src="https://www.youtube.com/embed/Uxv2EVesNBw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
+    <script src="{{ path_to_scripts('video.js') }}"></script>
 {% endblock %}

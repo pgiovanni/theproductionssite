@@ -9,6 +9,12 @@ html {
       background-size: cover;
       
     }
+  
+body {
+
+  overflow-y: scroll;
+
+}
 
 
 #video-container {
@@ -31,21 +37,47 @@ html {
 
 }
 
-#sign-up{
+#video {
 
-  position: absolute;
-  left: .1%;
-  top: 33%;
-  position: fixed;
+    top: 33%;
+    left: .1%;
 
 }
+
+
 
 #smlContainer {
 
   position: absolute;
-  left: 96.5%;
+  left: 99.5%;
   top: 50%;
   position: fixed;  
+  transform: rotate(90deg);
+
+}
+
+.links {
+
+  transform: rotate(-90deg) translate(-30px, -30px); 
+
+}
+
+#signupContainer {
+
+  left: 92.5%;
+  top: 95%;
+
+}
+
+.drop {
+
+  display: flex;
+
+}
+
+.smlimg {
+
+  transform: rotate(-90deg);
 
 }
 

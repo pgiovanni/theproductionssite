@@ -1,152 +1,520 @@
-html {
+/*begin normal size */
+
+@media screen and (max-width: 1920px) and (min-width: 1001px) {
+
+  html {
 
     font-size: 35px;
     font-family: 'Roboto', sans-serif; 
-    background: url(../images/paulxhern.jpg) no-repeat center center fixed; 
+    background: url(../images/paulxhern.jpg) no-repeat center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
 
- }
-
-
-.links {
-
-    display: none;
-   
-
 }
 
-.drop {
+          
+  .links {
+
+      display: none;
+    
+
+  }
+
+  .drop {
+
+
+    position: absolute;
+    font-size: 16px;
+    display: inline-block;
+
+  }
+
+  #dropy {
+
+      left:40px;
+    
+  }
+
+  #dropi {
+
+    left: 20px;
+
+  }
+
+  .drop:hover > .links {
+
+      display: block;
+      background-color: lightgray;
+      width: 60px;
+      
+      
+  }
+
+  .drop > .links:hover {
+
+    background-color: darkgray;
+
+  }
+
+  #smlContainer {
+
+      position: absolute;
+      position: fixed;
+      left: 48.5%;
+      top: 1%; 
+    
+  }
+
+  #tour {
+
+    position: fixed;
+
+  }
+
+
+  #music {
+
+    
+    position: absolute;
+    position: fixed;
+    top: 1%;
+    left: 95%;
+
+  }
+
+  #signupContainer {
+
+    position: absolute;
+    position: fixed;
+    left: 46%;
+    top: 95%;
+    background: none;
+  }
+
+  .drop {
+
+
+    position: absolute;
+    font-size: 16px;
+    display: inline-block;
+
+  }
+
+  #dropy {
+
+      left:40px;
+    
+  }
+
+  #dropi {
+
+    left: 20px;
+
+  }
+
+  .drop:hover > .links {
+
+      display: block;
+      background-color: lightgray;
+      width: 60px;
+      
+      
+  }
+
+  .drop > .links:hover {
+
+    background-color: darkgray;
+
+  }
+
+  #smlContainer {
+
+      position: absolute;
+      position: fixed;
+      left: 48.5%;
+      top: 1%; 
+    
+  }
+
+  #tour {
+
+    position: fixed;
+
+  }
+
+
+  #music {
+
+    
+    position: absolute;
+    position: fixed;
+    top: 1%;
+    left: 95%;
+
+  }
+
+  #signupContainer {
+
+    position: absolute;
+    position: fixed;
+    left: 46%;
+    top: 95%;
+    background: none;
+    
+    
+  }
+
+  #signupButton {
+
+    background-color: transparent;
+    border-color: transparent;
+    transition: transform 1s;
+    text-decoration-color: white;
+    font-size: 35px;
+    color: white;
+    font-weight: 100;
+
+  }
+
+  #signupButton:hover {
+
+    background-color: silver;
+
+  }
+
+
+  #email_form {
+
+    position: absolute;
+    opacity: 0; 
+    top: 100%;
+    width: 100%;
+    left: 0%;
+    background-color: black;
+    transition: transform 1s, opacity 1s;
+    position: fixed;
+  
+
+  }
+
+  #shop {
+
+    position: absolute;
+    position: fixed;
+    top: 95%;
+    transition: transform 1s;
+
+  }
+
+  #video {
+
+    position: absolute;
+    position: fixed;
+    top: 95%;
+    left: 95%;
+    transition: transform 1s;
+
+  }
+
+
+
+  #banjorecord {
+
+    position: absolute;
+    position: fixed;
+    top: 20%;
+    left: 30%;
+
+  }
+
+  .mainlinks > a {
+
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+
+  }
+
+  .mainlinks > a:hover {
+
+    background-color: silver;
+
+  }
+
+  #home {
+
+    display: none;
+    color: white;
+    font-weight: 100;
+
+  }
+
+  #signupButton:hover {
+
+    background-color: silver;
+
+  }
+
+
+  #email_form {
+
+    position: absolute;
+    opacity: 0; 
+    top: 100%;
+    width: 100%;
+    left: 0%;
+    background-color: black;
+    transition: transform 1s, opacity 1s;
+    position: fixed;
+  
+
+  }
+
+  #shop {
+
+    position: absolute;
+    position: fixed;
+    top: 95%;
+    transition: transform 1s;
+
+  }
+
+  #video {
+
+    position: absolute;
+    position: fixed;
+    top: 95%;
+    left: 95%;
+    transition: transform 1s;
+
+  }
+
+
+
+  #banjorecord {
+
+    position: absolute;
+    position: fixed;
+    top: 20%;
+    left: 30%;
+
+  }
+
+  .mainlinks > a {
+
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+
+  }
+
+  .mainlinks > a:hover {
+
+    background-color: silver;
+
+  }
+
+  #home {
+
+    display: none;
+
+  }
+}
+
+/*end normal size*/
+
+
+/*start smallest pixel size*/
+
+@media screen and (max-width: 519px) {
+
+  html {
+
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif; 
+    background: url(../images/paulxhern.jpg) no-repeat center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+
+  }
+
+
+
+
+  .links {
+
+  display: none;
+
+
+  }
+
+  .drop {
 
 
   position: absolute;
   font-size: 16px;
   display: inline-block;
 
-}
+  }
 
-#dropy {
+  #dropy {
 
-    left:40px;
-  
-}
+  left:40px;
 
-#dropi {
+  }
+
+  #dropi {
 
   left: 20px;
 
-}
+  }
 
-.drop:hover > .links {
+  .drop:hover > .links {
 
-    display: block;
-    background-color: lightgray;
-    width: 60px;
-    
-    
-}
+  display: block;
+  background-color: lightgray;
+  width: 60px;
 
-.drop > .links:hover {
+
+  }
+
+  .drop > .links:hover {
 
   background-color: darkgray;
 
-}
+  }
 
-#smlContainer {
+  #smlContainer {
 
-    position: absolute;
-    position: fixed;
-    left: 48.5%;
-    top: 1%; 
-   
-}
+  position: absolute;
+  position: fixed;
+  left: 48.5%;
+  top: 1%; 
 
-#tour {
+  }
+
+  #tour {
 
   position: fixed;
 
-}
+  }
 
 
-#music {
+  #music {
 
-  
+
   position: absolute;
   position: fixed;
   top: 1%;
   left: 95%;
 
-}
+  }
 
-#signupContainer {
+  #signupContainer {
 
   position: absolute;
   position: fixed;
-  left: 46.5%;
+  left: 46%;
   top: 95%;
   background: none;
-  
 
-}
 
-#email_form {
+  }
+
+  #signupButton {
+
+  background-color: transparent;
+  border-color: transparent;
+  transition: transform 1s;
+  text-decoration-color: white;
+  font-size: 35px;
+  color: white;
+  font-weight: 100;
+
+  }
+
+  #signupButton:hover {
+
+  background-color: silver;
+
+  }
+
+
+  #email_form {
 
   position: absolute;
-  display: none;
+  opacity: 0; 
   top: 100%;
-  width: 99%;
+  width: 100%;
+  left: 0%;
   background-color: black;
-  transition: transform 5s;
+  transition: transform 1s, opacity 1s;
+  position: fixed;
 
-}
 
-#shop {
+  }
+
+  #shop {
 
   position: absolute;
   position: fixed;
   top: 95%;
+  transition: transform 1s;
 
-}
+  }
 
-#video {
+  #video {
 
   position: absolute;
   position: fixed;
   top: 95%;
   left: 95%;
+  transition: transform 1s;
 
-}
+  }
 
 
-#banjorecord {
+
+  #banjorecord {
 
   position: absolute;
   position: fixed;
   top: 20%;
   left: 30%;
 
-}
+  }
 
-.mainlinks > a {
+  .mainlinks > a {
 
   text-decoration: none;
   color: white;
   font-weight: bold;
 
 
-}
+  }
 
-.mainlinks > a:hover {
+  .mainlinks > a:hover {
 
   background-color: silver;
 
-}
+  }
 
-#home {
+  #home {
 
   display: none;
 
+  }
+
+
+
 }
+
+/*end smallest pixel size */
