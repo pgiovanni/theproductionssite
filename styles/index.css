@@ -396,7 +396,7 @@
 
   position: absolute;
   position: fixed;
-  left: 48.5%;
+  left: 42.5%;
   top: 1%; 
 
   }
@@ -414,7 +414,7 @@
   position: absolute;
   position: fixed;
   top: 1%;
-  left: 95%;
+  left: 86%;
 
   }
 
@@ -422,7 +422,7 @@
 
   position: absolute;
   position: fixed;
-  left: 46%;
+  left: 38%;
   top: 95%;
   background: none;
 
@@ -435,7 +435,7 @@
   border-color: transparent;
   transition: transform 1s;
   text-decoration-color: white;
-  font-size: 35px;
+  font-size: 20px;
   color: white;
   font-weight: 100;
 
@@ -476,7 +476,7 @@
   position: absolute;
   position: fixed;
   top: 95%;
-  left: 95%;
+  left: 86%;
   transition: transform 1s;
 
   }
